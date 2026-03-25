@@ -11,7 +11,7 @@ export default function About() {
         </h2>
 
         <p className="text-[#C7B5DB] text-lg leading-relaxed">
-          Sou desenvolvedora full stack apaixonada por criar sistemas interativos e funcionais. Trabalho com tecnologias como Java e SpringBoot, HTML, CSS, Javascript, React, Node.js e Tailwind, sempre buscando aprimorar minhas habilidades e construir projetos que impactem meu aprendizado e me permitam evoluir como profissional.
+          Sou desenvolvedora full stack com experiência em desenvolvimento de web games educacionais multidisciplinares. Atualmente cursando Análise e Desenvolvimento de Sistemas, utilizo tecnologias como Java, SpringBoot, HTML, CSS, Javascript, React, Node.js e IA, buscando aprimorar minhas habilidades e construir projetos que impactem meu aprendizado e me permitam evoluir como profissional.
         </p>
 
       </div>

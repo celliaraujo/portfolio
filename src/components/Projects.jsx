@@ -1,39 +1,40 @@
 import ProjectCard from "./ProjectCard"
+const base = import.meta.env.BASE_URL
 
 const projects = [
   {
     id: 1,
     title: "Portfolio",
     description: "Meu site pessoal feito com React",
-    image: "/images/portfolio.png",
-    link: "https://meusite.com"
+    image: base + "/images/portfolio.png",
+    link: "https://celliaraujo.github.io/portfolio"
   },
   {
     id: 2,
     title: "Game Pedagógico",
     description: "Jogo infantil para ensino de pensamento computacional.",
-    image: "/images/progamix.png",
+    image: base + "/images/progamix.png",
     link: "https://celliaraujo.github.io/game-pensamento-computacional/"
   },
   {
     id: 3,
     title: "Jogo da Forca",
     description: "Jogo criado para exercitar conceitos básicos de lógica de programação.",
-    image: "/images/forca.png",
+    image: base + "/images/forca.png",
     link: "https://celliaraujo.github.io/forca/"
   },
   {
     id: 4,
     title: "Calculadora",
     description: "Projeto criado para exercitar lógica de programação e design responsivo.",
-    image: "/images/calculadora.png",
+    image: base + "/images/calculadora.png",
     link: "https://celliaraujo.github.io/projeto-calculadora/"
   },
   {
     id: 5,
     title: "Game Pedagógico",
     description: "Jogo infantil para ensino de pensamento computacional.",
-    image: "/images/comandinhos.png",
+    image: base + "/images/comandinhos.png",
     link: "https://celliaraujo.github.io/projeto-game-js/"
   }
 ]
